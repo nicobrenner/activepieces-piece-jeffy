@@ -33,7 +33,7 @@ export const jeffyAuth = PieceAuth.CustomAuth({
         url: `${baseUrl}/health`,
       });
       const body = response.body as Record<string, unknown>;
-      if (body.status === 'healthy') {
+      if (body.status === 'ready' || body.status === 'healthy') {
         return { valid: true };
       }
       return { valid: false, error: 'Server responded but is not healthy' };

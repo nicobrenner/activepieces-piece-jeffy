@@ -4,6 +4,8 @@ Text classification piece for [Activepieces](https://www.activepieces.com) power
 
 Classify text in your workflows using frozen embeddings + logistic regression. 70 pretrained tasks, 15ms inference, CPU only, no LLM needed.
 
+![Workflow demo: Webhook → Jeffy → Switch routing](workflow_demo.gif)
+
 ## Actions
 
 | Action | Description |

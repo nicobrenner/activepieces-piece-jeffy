@@ -1,0 +1,43 @@
+{
+  "name": "activepieces-piece-jeffy",
+  "version": "0.1.0",
+  "description": "Activepieces piece for Jeffy — fast text classification powered by frozen embeddings + logistic regression",
+  "keywords": [
+    "activepieces",
+    "piece",
+    "jeffy",
+    "text-classification",
+    "nlp",
+    "machine-learning",
+    "embeddings"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nicobrenner/activepieces-piece-jeffy",
+  "author": {
+    "name": "Nico Brenner",
+    "email": "nbrenner@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicobrenner/activepieces-piece-jeffy.git"
+  },
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {
+    "@activepieces/pieces-common": "^0.12.5",
+    "@activepieces/pieces-framework": "^0.32.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.0",
+    "tslib": "2.6.2"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "activepieces-piece-jeffy",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Activepieces piece for Jeffy — fast text classification powered by frozen embeddings + logistic regression",
   "keywords": [
     "activepieces",
@@ -21,8 +21,8 @@
     "type": "git",
     "url": "git+https://github.com/nicobrenner/activepieces-piece-jeffy.git"
   },
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
@@ -30,6 +30,7 @@
   },
   "files": [
     "dist",
+    "src/index.js",
     "README.md"
   ],
   "dependencies": {
